@@ -1,0 +1,96 @@
+%Compilation of research projects that we are interested in
+\documentclass[10pt,compress,xcolor={usenames,dvipsnames},aspectratio=169]{beamer}
+%\documentclass[xcolor={usenames,dvipsnames},aspectratio=169]{beamer} %slides and 
+%notes
+\usepackage[T1]{fontenc}
+\usepackage{tgadventor} %Font found at https://tug.org/FontCatalogue/
+%\usepackage{newpxtext}
+\usepackage[euler-digits,euler-hat-accent]{eulervm}
+
+\usepackage{amsmath,
+	amssymb,
+	datetime,
+	mathtools,
+	bbm,
+	%mathabx,
+	array,
+	booktabs,
+	xspace,
+	multirow,
+	calc,
+	colortbl,
+	siunitx,
+ 	graphicx}
+\usepackage[usenames]{xcolor}
+\usepackage[giveninits=false,backend=biber,style=nature, maxcitenames =10, mincitenames=9]{biblatex}
+\addbibresource{FJHown23.bib}
+\addbibresource{FJH23.bib}
+\usepackage{media9}
+\usepackage[autolinebreaks]{mcode}
+\usepackage[tikz]{mdframed}
+
+
+\usetheme{FJHSlimNoFoot169}
+\setlength{\parskip}{2ex}
+\setlength{\arraycolsep}{0.5ex}
+
+
+\DeclareMathOperator{\SOL}{SOL}
+\DeclareMathOperator{\APP}{APP}
+\DeclareMathOperator{\ERR}{ERR}
+\DeclareMathOperator{\AVG}{AVG}
+\DeclareMathOperator{\INT}{INT}
+\DeclareMathOperator{\LIN}{LINEAR}
+\DeclareMathOperator{\BAD}{BAD}
+%\DeclareMathOperator{\opt}{opt}
+\newcommand{\dataN}{\bigl(\hf(\vk_i)\bigr)_{i=1}^n}
+\newcommand{\dataNj}{\bigl(\hf(\vk_i)\bigr)_{i=1}^{n_j}}
+\newcommand{\dataNjd}{\bigl(\hf(\vk_i)\bigr)_{i=1}^{n_{j^\dagger}}}
+\newcommand{\ERRN}{\ERR\bigl(\dataN,n\bigr)}
+\newcommand{\otod}{\ensuremath{1\mkern-4mu : \mkern-2mu d}}
+
+
+%\DeclareMathOperator{\app}{app}
+
+\providecommand{\HickernellFJ}{H.\xspace}
+
+
+\renewcommand{\OffTitleLength}{-7ex}
+\setlength{\FJHThankYouMessageOffset}{-8ex}
+\title{Totally Randomised Low Discrepancy Generators}
+\author[]{GAIL/QMCPy/GAAPy Group}
+\institute{Department of Applied Mathematics \qquad
+	Center for Interdisciplinary Scientific Computation \\
+	Illinois Institute of Technology \qquad
+	\href{mailto:hickernell@iit.edu}{\url{hickernell@iit.edu}} \qquad
+	\href{http://mypages.iit.edu/~hickernell}{\url{mypages.iit.edu/~hickernell}}\\
+	First investigator is the lead}
+
+\thanksnote{}
+	
+%\event{Happy Fred}
+\date[]{ revised \today}
+
+\input FJHDef.tex
+
+
+
+\begin{document}
+	\everymath{\displaystyle}
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Draft Manuscript}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{See the slides by Owen and Goda}
+
+   
+\end{frame}
+
+
+
+\end{document}
